@@ -1,0 +1,13 @@
+D:\JRenderer\JRenderer-Server\ConsoleApp1\bin\Debug\net5.0\JRenderer-Server.exe
+D:\JRenderer\JRenderer-Server\ConsoleApp1\bin\Debug\net5.0\JRenderer-Server.deps.json
+D:\JRenderer\JRenderer-Server\ConsoleApp1\bin\Debug\net5.0\JRenderer-Server.runtimeconfig.json
+D:\JRenderer\JRenderer-Server\ConsoleApp1\bin\Debug\net5.0\JRenderer-Server.runtimeconfig.dev.json
+D:\JRenderer\JRenderer-Server\ConsoleApp1\bin\Debug\net5.0\JRenderer-Server.dll
+D:\JRenderer\JRenderer-Server\ConsoleApp1\bin\Debug\net5.0\JRenderer-Server.pdb
+D:\JRenderer\JRenderer-Server\ConsoleApp1\obj\Debug\net5.0\JRenderer-Server.AssemblyInfoInputs.cache
+D:\JRenderer\JRenderer-Server\ConsoleApp1\obj\Debug\net5.0\JRenderer-Server.AssemblyInfo.cs
+D:\JRenderer\JRenderer-Server\ConsoleApp1\obj\Debug\net5.0\JRenderer-Server.csproj.CoreCompileInputs.cache
+D:\JRenderer\JRenderer-Server\ConsoleApp1\obj\Debug\net5.0\JRenderer-Server.dll
+D:\JRenderer\JRenderer-Server\ConsoleApp1\obj\Debug\net5.0\JRenderer-Server.pdb
+D:\JRenderer\JRenderer-Server\ConsoleApp1\obj\Debug\net5.0\JRenderer-Server.genruntimeconfig.cache
+D:\JRenderer\JRenderer-Server\ConsoleApp1\obj\Debug\net5.0\JRenderer-Server.csprojAssemblyReference.cache
