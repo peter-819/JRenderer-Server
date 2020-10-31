@@ -114,7 +114,8 @@ public class Server
             {
                 {(int)ClientPackets.welcomeReceived,ServerHandle.WelcomeReceived },
                 {(int)ClientPackets.sendString,ServerHandle.StringReceived },
-                {(int)ClientPackets.sendDataPackets,ServerHandle.DataReceived }
+                {(int)ClientPackets.sendDataPackets,ServerHandle.DataReceived },
+                {(int)ClientPackets.sendLoginData,ServerHandle.LoginDataReceived },
             };
         Console.WriteLine("Initalized packets.");
     }

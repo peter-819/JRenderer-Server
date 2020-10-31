@@ -1,6 +1,7 @@
 using JRenderer_Server;
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 /// <summary>
 /// 向客户端发送数据
 /// </summary>
@@ -96,6 +97,14 @@ public class ServerSend
             _packet.Write(data.Length);
             _packet.Write(data);
             SendUDPData(_toClient, _packet);
+        }
+    }
+    public static void sendLoginResult(int _toClient, bool res)
+    {
+        using(Packet _packet = new Packet((int)ServerPackets.LoginResult))
+        {
+            _packet.Write(res);
+            SendTCPData(_toClient ,_packet);
         }
     }
 }

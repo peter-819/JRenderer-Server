@@ -7,7 +7,8 @@ using System.Text;
 public enum ServerPackets
 {
     welcome = 1, 
-    ppmFile
+    ppmFile,
+    LoginResult
 }
 
 /// <summary>Sent from client to server.</summary>
@@ -16,7 +17,8 @@ public enum ClientPackets
     welcomeReceived = 1,
     sendString,
     sendDataPacketInfo,
-    sendDataPackets
+    sendDataPackets,
+    sendLoginData
 }
 
 public class Packet : IDisposable
