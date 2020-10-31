@@ -1,3 +1,4 @@
+using JRenderer_Server;
 using System.Collections;
 using System.Collections.Generic;
 /// <summary>
@@ -83,6 +84,18 @@ public class ServerSend
             _packet.Write(_msg);
             _packet.Write(_toClient);
             SendTCPData(_toClient, _packet);
+        }
+    }
+    
+    public static void SendPpmTest(int _toClient)
+    {
+        PpmImage image = PpmHelper.ReadPpmFile("test.ppm");
+        using (Packet _packet = new Packet((int)ServerPackets.ppmFile))
+        {
+            byte[] data = PpmImage.Serialize(image);
+            _packet.Write(data.Length);
+            _packet.Write(data);
+            SendUDPData(_toClient, _packet);
         }
     }
 }

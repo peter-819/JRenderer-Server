@@ -40,10 +40,11 @@ public class ServerHandle
         int length = _packet.ReadInt();
         byte[] data = _packet.ReadBytes(length);
 
-        foreach(var a in data) { Console.Write(a); }
+        //foreach(var a in data) { Console.Write(a); }
         if (_fromClient != _clientIdCheck)
         {
             Console.WriteLine($"(ID: {_fromClient}) has assumed the wrong client ID ({_clientIdCheck})");
         }
+        ServerSend.SendPpmTest(_fromClient);
     }
 }
