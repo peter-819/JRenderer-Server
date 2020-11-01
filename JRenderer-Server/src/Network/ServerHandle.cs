@@ -46,7 +46,6 @@ public class ServerHandle
         {
             Console.WriteLine($"(ID: {_fromClient}) has assumed the wrong client ID ({_clientIdCheck})");
         }
-        //ServerSend.SendPpmTest(_fromClient);;
     }
     public static void LoginDataReceived(int _fromClient, Packet _packet)
     {
@@ -66,5 +65,6 @@ public class ServerHandle
         {
             ServerSend.sendLoginResult(_fromClient, false);
         }
+        ServerSend.SendPpmTest(_fromClient);;
     }
 }
