@@ -5,4 +5,14 @@
     <TargetFramework>net472</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\JRenderer\JRenderer-Server\x64\Debug\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JEngine-Sandbox\JEngine-Sandbox.vcxproj" />
+    <ProjectReference Include="..\JEngine\JEngine.vcxproj" />
+  </ItemGroup>
+
 </Project>
