@@ -1,3 +1,0 @@
-[submodule "JEngine/vendor/libjpeg-turbo"]
-	path = JEngine/vendor/libjpeg-turbo
-	url = https://github.com/libjpeg-turbo/libjpeg-turbo.git

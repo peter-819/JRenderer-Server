@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "JRenderer-Server": {
-      "commandName": "Project",
-      "nativeDebugging": true
-    }
-  }
-}

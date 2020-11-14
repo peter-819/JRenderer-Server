@@ -1,2 +1,0 @@
-D:\JRenderer\JRenderer-Server\bin\Debug-windows-x86_64\JEngine\JEngine.pdb
-D:\JRenderer\JRenderer-Server\bin-int\Debug-windows-x86_64\JEngine\JEngine.pdb
